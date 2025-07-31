@@ -1,0 +1,1 @@
+from bayes_nanospace2025.interpolation import get_initial_training_data
