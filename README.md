@@ -9,8 +9,8 @@ My slides on Gaussian Processes and Gaussian Process Regression are here
 
 | Format    | Link |
 | -------- | ------- |
-| pptx  | [Click me](https://github.com/Mads-PeterVC/nanospace2025/blob/44cfe1c0ac4b52811f8bc1eb42579055def44249/lecture/gp_visual_intro.pptx) |
-| pdf | [Click me](https://github.com/Mads-PeterVC/nanospace2025/blob/44cfe1c0ac4b52811f8bc1eb42579055def44249/lecture/gp_visual_intro.pdf) |
+| pptx  | [Click me](lecture/gp_visual_intro.pptx) |
+| pdf | [Click me](lecture/gp_visual_intro.pdf) |
 
 ## Jupyter notebooks for hands-on session
 
