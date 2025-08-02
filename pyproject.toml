@@ -27,4 +27,6 @@ allow-direct-references = true
 dev = [
     "ipykernel>=6.30.0",
     "jupyter>=1.1.1",
+    "nbconvert>=7.16.6",
+    "nbformat>=5.10.4",
 ]

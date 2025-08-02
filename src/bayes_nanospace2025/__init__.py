@@ -4,6 +4,8 @@ from bayes_nanospace2025.tutorial.plot_gp import plot_gp_prediction
 
 class YourCodeHereError(NotImplementedError):
     def __init__(self, message="You need to implement this part of the code!"):
+        message = f"You haven't replaced this line with your code yet.\n{message}"
+
         super().__init__(message)
 
 def YourCodeHere(message="You need to implement this part"):
