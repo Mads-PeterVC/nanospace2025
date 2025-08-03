@@ -1,13 +1,16 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def plot_gp_prediction(ax = None, prediction = None, color="blue", label="Posterior Mean"):
+def plot_gp_prediction(ax = None, prediction = None, color="blue", label="Posterior Mean", X_plot=None):
     if ax is None:
         fig, ax = plt.subplots(figsize=(6, 4))
 
-    ax.plot(prediction.X_query, prediction.mean, color=color, label=label)
+    if X_plot is None:
+        X_plot = prediction.X_query
+
+    ax.plot(X_plot, prediction.mean, color=color, label=label)
     ax.fill_between(
-        prediction.X_query.flatten(),
+        X_plot.flatten(),
         prediction.mean.flatten() + 2 * np.sqrt(prediction.variance),
         prediction.mean.flatten() - 2 * np.sqrt(prediction.variance),
         color=color,

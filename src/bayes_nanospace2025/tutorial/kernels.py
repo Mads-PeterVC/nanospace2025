@@ -96,3 +96,30 @@ class Noise(Kernel):
         else:
             return self.noise_level * np.eye(x1.shape[0])
 
+class Periodic(Kernel):
+
+    def __init__(self, length_scale=1.0, period=1.0):
+        super().__init__()
+        self.length_scale = length_scale
+        self.period = period
+    
+    def __call__(self, x1, x2=None):
+        if x2 is None:
+            x2 = x1
+
+        d = cdist(x1, x2, metric='euclidean')
+        k = np.exp(-2 * np.sin(np.pi * d/self.period)**2 / self.length_scale**2)
+
+        return k
+    
+class Linear(Kernel):
+
+    def __init__(self, slope=1.0, intercept=0.0):
+        super().__init__()
+        self.slope = slope
+        self.intercept = intercept
+    
+    def __call__(self, x1, x2=None):
+        if x2 is None:
+            x2 = x1
+        return self.slope * np.dot(x1, x2.T) + self.intercept

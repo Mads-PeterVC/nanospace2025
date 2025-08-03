@@ -39,7 +39,7 @@ def sample_posterior(noise=1e-3, length_scale=0.1):
     return mean_post, samples_post, cov_post
 
 sz = 4
-fig, ax = plt.subplots(1, 4, figsize=(3*sz, 1*sz), constrained_layout=True)
+fig, ax = plt.subplots(1, 4, figsize=(4*sz, 1*sz), constrained_layout=True)
 
 for i, l in enumerate([0.01, 0.1, 0.25, 0.5]):
 
