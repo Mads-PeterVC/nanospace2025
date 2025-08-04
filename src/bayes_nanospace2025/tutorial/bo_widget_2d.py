@@ -160,3 +160,18 @@ class BOWidget2D:
 
         return fig
 
+def plot_bo_2d(result: OptimizationResult, X1, X2, plot_types='contour'):
+    """
+    Plot the results of Bayesian optimization in 2D.
+
+    Parameters:
+    - result: OptimizationResult object containing the results of the optimization.
+    - X1: 2D array for the first dimension.
+    - X2: 2D array for the second dimension.
+    - plot_types: Type of plot to use ('contour' or 'surface').
+
+    Returns:
+    - fig: Plotly figure object.
+    """
+    widget = BOWidget2D()
+    return widget.plot(result, X1, X2, plot_types)

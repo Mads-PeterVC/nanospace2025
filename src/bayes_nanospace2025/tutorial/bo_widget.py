@@ -89,8 +89,8 @@ class BOWidget:
 
     def plot(self, result: OptimizationResult, X_plot, truth=None):
         layout = go.Layout(
-            width=1000,
-            height=600,
+            width=900,
+            height=500,
             margin=dict(l=50, r=50, t=50, b=50),
         )
 
@@ -136,7 +136,7 @@ class BOWidget:
         fig.show()
 
 
-def plot_bayes_opt_plotly(
+def plot_bo(
     result: OptimizationResult = None,
     X_plot=None,
     truth=None,

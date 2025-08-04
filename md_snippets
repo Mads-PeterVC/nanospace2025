@@ -1,3 +1,5 @@
 <div class="alert alert-block alert-info"> <b>Note:</b> Blue box </div>
 
 <div class="alert alert-block alert-success"> <b>Takeaway:</b> Green box </div>
+
+<div class="alert alert-block alert-danger"> <b>Warning:</b> Red box. </div>
