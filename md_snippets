@@ -3,3 +3,8 @@
 <div class="alert alert-block alert-success"> <b>Takeaway:</b> Green box </div>
 
 <div class="alert alert-block alert-danger"> <b>Warning:</b> Red box. </div>
+
+<details>
+    <summary><strong><span style="color: lightgreen; font-size: 18px;">💡 Hint - Click arrow</span></strong></summary>
+    <p> Hint text </p>
+  </details>
