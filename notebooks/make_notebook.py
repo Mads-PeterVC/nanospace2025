@@ -37,5 +37,5 @@ def make_student_notebook(notebook_path, output_path):
 
 if __name__ == "__main__":
 
-    make_student_notebook('tutorial_gp_master.ipynb', 'student_versions/tutorial_gp_student.ipynb')
+    # make_student_notebook('tutorial_gp_master.ipynb', 'student_versions/tutorial_gp_student.ipynb')
     make_student_notebook('tutorial_bo_master.ipynb', 'student_versions/tutorial_bo_student.ipynb')
