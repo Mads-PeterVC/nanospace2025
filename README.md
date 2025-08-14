@@ -17,7 +17,7 @@ My slides on Gaussian Processes and Gaussian Process Regression are here
 | Topic    | Trainee version | Solved version |
 | -------- | --------------- | -------------- |
 | Gaussian Processes  | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/nanospace2025/blob/44cfe1c0ac4b52811f8bc1eb42579055def44249/notebooks/student_versions/tutorial_gp_student.ipynb) | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/nanospace2025/blob/44cfe1c0ac4b52811f8bc1eb42579055def44249/notebooks/tutorial_gp_master.ipynb) |
-| Kernel widget  | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/nanospace2025/blob/44cfe1c0ac4b52811f8bc1eb42579055def44249/notebooks/kernel_widget.ipynb) | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/nanospace2025/blob/44cfe1c0ac4b52811f8bc1eb42579055def44249/notebooks/kernel_widget.ipynb) |
+| Kernel widget  | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/nanospace2025/blob/b09854c77e6d492be7ab417cb7a1fd715b44b697/notebooks/kernel_widget.ipynb) | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/nanospace2025/blob/b09854c77e6d492be7ab417cb7a1fd715b44b697/notebooks/kernel_widget.ipynb) |
 | Bayesian Optimization | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/nanospace2025/blob/44cfe1c0ac4b52811f8bc1eb42579055def44249/notebooks/student_versions/tutorial_bo_student.ipynb) | [ ![Open in Google Colab] ](https://colab.research.google.com/github/Mads-PeterVC/nanospace2025/blob/44cfe1c0ac4b52811f8bc1eb42579055def44249/notebooks/tutorial_bo_master.ipynb) |
 
 
